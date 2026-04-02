@@ -1,0 +1,13 @@
+site:
+  title: My Docs Portal
+
+content:
+  sources:
+    - url: ./docs-module-a
+      branches: HEAD
+    - url: ./docs-module-b
+      branches: HEAD
+
+ui:
+  bundle:
+    url: https://github.com/antora/default-ui/releases/latest/download/ui-bundle.zip
