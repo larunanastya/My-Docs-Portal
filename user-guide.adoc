@@ -1,0 +1,45 @@
+= Документация
+:product-version: 2.1.0
+
+== Установка
+
+=== Системные требования
+
+* OS: Windows / Linux / MacOS
+* RAM: 4GB+
+* Версия продукта: {product-version}
+
+== Пример кода
+
+[source,python]
+----
+def hello():
+    print("Hello, world!")
+----
+
+== Примечания
+
+NOTE: Это обычная заметка.
+
+WARNING: Это предупреждение!
+
+TIP: Полезный совет.
+
+== Таблица компонентов
+
+[cols="1,1,2", options="header"]
+|===
+| Компонент | Версия | Зависимости
+
+| Backend
+| 1.0
+| Python, Flask
+
+| Frontend
+| 2.0
+| React
+
+| Database
+| 12
+| PostgreSQL
+|===
